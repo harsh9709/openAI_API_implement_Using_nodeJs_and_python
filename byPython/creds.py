@@ -1,1 +1,0 @@
-my_api_key="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"
