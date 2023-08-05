@@ -1,7 +1,8 @@
 import gradio as gr
 import openai
+import creds
 
-openai.api_key="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"
+openai.api_key=creds.my_api_key
 
 message_history = [{"role": "user", "content": f"You are experienced SQL TEACHER  . I will specify the subject matter in my messages, and you will reply with a relevant and accurate sql related answers that includes the subjects I mention in my messages. Reply only h sql questions domain answers to further input. If you understand, say OK else  SAY IRELEVENT prompt"},
                    {"role": "assistant", "content": f"OK"}]
